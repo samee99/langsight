@@ -48,6 +48,8 @@ for sentence in sentences:
     response_embeddings.append(response_embedding)
     responses.append(response)
     prompts.append(prompt)
+    print(prompt)
+    print(response)
 
 
 def similarity(embedding1, embedding2):
