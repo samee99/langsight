@@ -27,11 +27,29 @@ As a first commit to the area of LLMOps, which focuses on improving the deployme
 
 To use the code in this repository, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Install the required dependencies, as listed in `requirements.txt`.
-3. Run the `example_experiment.py` script to see a demonstration of the code in action.
+## Setup
 
-You can also modify the example script or create your own scripts to run experiments with different settings, such as using different LLMs or changing the input parameters.
+1. Clone this repository:
+
+2. Install the required Python packages:
+
+pip install -r requirements.txt
+
+
+3. Set your OpenAI API key:
+
+```python
+openai_api_key = "your_openai_api_key_here"
+
+Replace your_openai_api_key_here with your actual OpenAI API key.
+
+## Running the Code
+
+To run the code, simply execute the llm_analysis.py script:
+
+python llm_analysis.py
+
+The script will output similarity matrices for the given prompts and responses, and display visualizations of the correlation between them.
 
 ## Contributing to LLMOps
 
