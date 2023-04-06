@@ -3,8 +3,12 @@ import numpy as np
 from scipy.spatial.distance import cosine
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
-openai.api_key = openai_api_key
+try:
+    openai_api_key = os.environ["OPENAI_API_KEY"]
+except KeyError:
+    raise ValueError("The environment variable 'OPENAI_API_KEY' must be set with your OpenAI API key.")
 
 
 #Example 1
