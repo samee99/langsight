@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 3. Set your OpenAI API key:
 For macOS and Linux (Bash) this can be done by calling: 
+
 export OPENAI_API_KEY="your_openai_api_key_here"
 
 Replace your_openai_api_key_here with your actual OpenAI API key. Make sure to run this command in the same terminal session where you will execute the script.
